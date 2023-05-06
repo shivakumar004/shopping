@@ -53,8 +53,10 @@ const App = () => {
           setCountry(e.target.value)}}>
           {countries.map((item,index)=>{
             return <option value={index}>{item.name}</option>})}
-        </select>
-
+        </select value={country}>
+<options >
+  {countries.country.cities.map((item,index) =>{
+    return value={index}>{item}</options>
         <select value={country}>
 
         </select>
